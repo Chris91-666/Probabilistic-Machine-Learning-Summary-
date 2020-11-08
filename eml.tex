@@ -1,0 +1,164 @@
+\documentclass[10pt,fleqn]{report}
+
+\setcounter{tocdepth}{3}
+\setcounter{secnumdepth}{3}
+
+\usepackage{a4}
+\usepackage{latexsym}
+\usepackage{epsf}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{lipsum}
+\usepackage{scrextend}
+\usepackage{tikz}
+\usetikzlibrary{fit}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shadows}
+\usetikzlibrary{shadows.blur}
+\usetikzlibrary{shapes.symbols}
+\usepackage{fontspec}
+\usepackage{wrapfig}
+\usepackage{nameref}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{relsize}
+\usepackage{pdfpages}
+\usepackage{makeidx}
+\usepackage{csquotes}
+
+\usepackage{amsmath, amsthm, amssymb}
+\usepackage[ngerman, english]{babel}
+\usepackage{marvosym}
+\usepackage{graphics}
+\usepackage{extarrows}
+\usepackage{forloop}
+\usepackage{mathtools}
+
+\usepackage[]{algorithm2e}
+
+\usepackage{hyperref}% http://ctan.org/pkg/hyperref
+\usepackage{cleveref}% http://ctan.org/pkg/cleveref
+\usepackage{lipsum}% http://ctan.org/pkg/lipsum
+\newtheorem{definition}{Definition}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{preliminary}{Preliminary}
+\newtheorem{notation}{Notation}
+\newtheorem{property}{Property}
+\newtheorem{corollary}{Corollary}
+\newtheorem{example}{Example}
+\newtheorem{hypothesis}{Hypothesis}
+
+\crefname{theorem}{Theorem}{Theorems}
+\crefname{definition}{Definition}{Definitions}
+\crefname{lemma}{Lemma}{Lemmas}
+\crefname{preliminary}{Preliminary}{Preliminaries}
+\crefname{notation}{Notation}{Notations}
+\crefname{property}{Property}{Properties}
+\crefname{corollary}{Corollary}{Corollaries}
+\crefname{example}{Example}{Examples}
+\crefname{hypothesis}{Hypothesis}{Hypotheses}
+
+
+\newenvironment{beweis}{\begin{proof}[Beweis]}{\end{proof}}
+
+
+\usepackage[font=footnotesize,labelfont=bf]{caption}
+
+\newfontfamily\sansfont[Extension = .ttf, Path = ./fonts/, UprightFont = OpenSans-Regular, BoldFont=OpenSans-SemiBold, ItalicFont=OpenSans-SemiBold]{OpenSans}
+
+
+\titleformat{\chapter}[display]
+  {\sansfont\bfseries}{}{0pt}{\huge}
+  
+\renewcommand{\contentsname}{\sansfont Content}  
+
+\definecolor{folderbg}{RGB}{70, 130, 180}
+\definecolor{folderborder}{RGB}{50,50,50}
+\definecolor{DarkGreen}{RGB}{0, 136, 0}
+\newlength\Size
+\setlength\Size{5pt}
+
+
+\pgfdeclarelayer{bg}
+\pgfsetlayers{bg,main}
+
+\renewcommand{\textfraction}{0.05}
+\topmargin -15mm
+\textwidth 160mm
+\textheight 240mm
+\oddsidemargin -2mm
+\evensidemargin -2mm
+
+\newcommand\blfootnote[1]{%
+  \begingroup
+  \renewcommand\thefootnote{}\footnote{#1}%
+  \addtocounter{footnote}{-1}%
+  \endgroup
+}
+
+
+\usepackage[backend=biber,bibencoding=utf8,style=numeric,autocite=plain,sorting=none]{biblatex}
+\usepackage{setspace}
+
+\addbibresource{Literatur.bib}
+
+\titleformat*{\section}{\Large\sansfont}
+\titleformat*{\subsection}{\large\sansfont}
+\titleformat*{\subsubsection}{\sansfont}
+
+\begin{document}
+\pagenumbering{roman}
+\begin{titlepage}
+\title{\vspace{-5cm}\small Saarland University
+\mbox{} \vspace{4cm}\\
+\small\sansfont Summary \\
+\mbox{} \vspace{0.2cm}\\
+  {\Huge\sansfont  Probabilistic Machine Learning}\\}
+
+
+
+\author{\scriptsize\sansfont\textbf{Winter 2020/2021}\\
+\vspace{1cm}\\
+\textbf{\sansfont Lecturer:}\\
+Prof. Dr. Isabel Valera
+\vspace{1cm}\\
+\textbf{\sansfont Documentation:}\\
+Christian Schmidt
+}
+\date{}
+\end{titlepage}
+\maketitle
+
+
+\iffalse
+{\Huge Declaration}
+
+\vspace{0.9cm}
+\noindent I declare that I have developed and written the enclosed Bachelor Thesis completely by myself, and have not used sources or means without declaration in the text. Finally I thank ...
+\fi 
+
+\vspace{14.0cm}
+
+
+\pagebreak
+{\sansfont \small
+\tableofcontents
+}
+\cleardoublepage
+\pagenumbering{arabic}
+
+{\sansfont
+\Large
+
+}
+
+
+\input{Parts/introduction}
+
+
+
+
+\end{document}
