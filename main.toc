@@ -1,2 +1,26 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {english}{}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.1}Introduction}{1}{section.0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {0.2}Lecture 1}{10}{section.0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.1}Notations}{10}{subsection.0.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.2}One Variable}{10}{subsection.0.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {0.2.2.1}Gaussian}{10}{subsubsection.0.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {0.2.2.2}Maximum Likelihood Estimation}{10}{subsubsection.0.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {0.2.2.3}Posterior and Maximum a Posteriori estimates (MAP)}{10}{subsubsection.0.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.3}More than one Variable}{10}{subsection.0.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {0.2.3.1}Multivariate Gaussian}{10}{subsubsection.0.2.3.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {0.2.3.2}Conditional and marginal distributions}{10}{subsubsection.0.2.3.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {0.2.4}Latent variables and Generative models}{10}{subsection.0.2.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {0.2.4.1}Example: Gaussian Factor Analysis}{10}{subsubsection.0.2.4.1}%
